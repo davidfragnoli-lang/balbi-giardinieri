@@ -1,17 +1,17 @@
 import { getRequestConfig } from 'next-intl/server';
-import { cookies } from 'next/headers';
 
 export const locales = ['it', 'fr', 'de', 'en'] as const;
 export type Locale = typeof locales[number];
 
-export default getRequestConfig(async () => {
-  const cookieStore = await cookies();
-  const cookieLocale = cookieStore.get('NEXT_LOCALE')?.value;
+export default getRequestConfig(async ({ requestLocale }) => {
+  // This can either be defined statically at the top level if the locale is
+  // read from a user setting, read from the `Accept-Language` header, ...
+  let locale = await requestLocale;
   
-  // Validate if the cookie locale is supported
-  const locale = (cookieLocale && locales.includes(cookieLocale as Locale)) 
-    ? (cookieLocale as Locale) 
-    : 'it'; // Default to Italian (Tessin)
+  // Ensure the locale is supported
+  if (!locale || !locales.includes(locale as Locale)) {
+    locale = 'it'; // default to Italian
+  }
 
   return {
     locale,
