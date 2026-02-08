@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "projects": "Projets",
+    "about": "Qui sommes-nous",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Depuis plus de 30 ans, nous transformons les espaces verts au Tessin",
+    "subtitle": "Passion pour la nature, expérience et attention aux détails. Maintenant dirigée par Greta.",
+    "ctaPrimary": "Découvrir nos services",
+    "ctaSecondary": "Appelez-nous: +41 079 353 57 01"
+  },
+  "about": {
+    "title": "Comment naît Balbi Giardini",
+    "story": "Je m'appelle Giuseppe Balbi et ma passion pour le vert vient de loin. Dès mon enfance, j'accompagnais mon père dans les travaux agricoles sur les terrains de famille, où nous cultivions des potagers, des vignes, des oliviers et de nombreux arbres fruitiers. C'est là que j'ai appris la valeur du soin, de la patience et du respect pour la nature. À vingt ans, j'ai décidé de transformer cette passion en métier, en démarrant mon activité indépendante, que j'ai menée avec dévouement pendant plus de trente ans. Ces dernières années, Andrea Boatto m'a rejoint, un jeune professionnel talentueux et motivé, qui partage mes mêmes valeurs et a contribué à rendre cette période pré-retraite encore plus stimulante. En août 2025, je suis officiellement entré en retraite, mais l'histoire de l'entreprise ne s'est pas arrêtée : ma fille Greta a choisi de reprendre le flambeau et de guider l'activité vers une nouvelle phase, en la transformant en Balbi Giardini Sagl.",
+    "quote": "L'esprit reste le même. Andrea continuera à prendre soin de vos jardins avec professionnalisme et attention, tandis que Giuseppe restera présent comme premier contact.",
+    "team": {
+      "giuseppe": {
+        "name": "Giuseppe",
+        "role": "Fondateur"
+      },
+      "greta": {
+        "name": "Greta",
+        "role": "Gérante"
+      },
+      "andrea": {
+        "name": "Andrea",
+        "role": "Jardinier professionnel"
+      }
+    }
+  },
+  "services": {
+    "title": "Nos services",
+    "lawnMaintenance": {
+      "title": "Entretien de Pelouse",
+      "description": "Soin complet de votre pelouse pour la maintenir toujours verte et luxuriante"
+    },
+    "pruningCutting": {
+      "title": "Taille et Coupe",
+      "description": "Taille professionnelle d'arbres et de haies pour la santé et l'esthétique des plantes"
+    },
+    "plantTreatments": {
+      "title": "Traitements pour Plantes et Haies",
+      "description": "Traitements spécialisés pour la protection et le soin de vos plantes"
+    },
+    "gardenPreparation": {
+      "title": "Préparation et Soin du Potager",
+      "description": "Préparation du terrain et soin du potager pour des récoltes abondantes"
+    },
+    "flowersPlants": {
+      "title": "Fleurs et Plantes",
+      "description": "Sélection et plantation de fleurs et plantes pour embellir vos espaces"
+    },
+    "transportWaste": {
+      "title": "Transports et Évacuation",
+      "description": "Service complet de transport de matériaux et d'évacuation de déchets verts"
+    },
+    "onDemand": {
+      "gardenDesign": {
+        "title": "Conception de nouveaux jardins",
+        "description": "Sur demande"
+      },
+      "customServices": {
+        "title": "Services sur mesure",
+        "description": "Sur demande"
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Des projets qui parlent d'eux-mêmes",
+    "viewAll": "Voir tous les projets"
+  },
+  "testimonials": {
+    "elena": {
+      "name": "Elena Bernasconi",
+      "location": "Lugano",
+      "text": "Giuseppe et Andrea ont transformé notre jardin en un petit paradis. Leur professionnalisme et leur passion se voient dans chaque détail."
+    },
+    "marco": {
+      "name": "Marco Cereghetti",
+      "location": "Mendrisio",
+      "text": "Je collabore avec Balbi Giardini depuis des années. Toujours ponctuels, précis et avec une attention particulière aux besoins des plantes."
+    },
+    "giuseppeMoretti": {
+      "name": "Giuseppe Moretti",
+      "location": "Bellinzona",
+      "text": "Un service excellent de A à Z. Ma pelouse n'a jamais été aussi belle qu'après leurs interventions."
+    }
+  },
+  "ctaFinal": {
+    "title": "Commençons ensemble votre projet",
+    "subtitle": "Conseil gratuit • Devis personnalisé • Passion garantie",
+    "ctaPrimary": "Appelez-nous maintenant: +41 079 353 57 01",
+    "ctaSecondary": "Écrivez-nous un email"
+  },
+  "footer": {
+    "slogan": "Où la tradition rencontre l'innovation verte",
+    "copyright": "© 2025 Balbi Giardini Sagl. Tous droits réservés."
+  },
+  "whatsapp": {
+    "message": "Contactez-nous sur WhatsApp"
+  },
+  "languageSwitcher": {
+    "label": "Sélectionner la langue"
+  }
+}

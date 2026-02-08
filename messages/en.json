@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "For over 30 years, we transform green spaces in Ticino",
+    "subtitle": "Passion for nature, experience and attention to detail. Now led by Greta.",
+    "ctaPrimary": "Discover our services",
+    "ctaSecondary": "Call us: +41 079 353 57 01"
+  },
+  "about": {
+    "title": "How Balbi Giardini was born",
+    "story": "My name is Giuseppe Balbi and my passion for green comes from far away. Since childhood, I accompanied my father in agricultural work on family lands, where we cultivated vegetable gardens, vines, olive trees and numerous fruit trees. It was there that I learned the value of care, patience and respect for nature. At twenty years old, I decided to transform that passion into a profession, starting my independent activity, which I carried on with dedication for over thirty years. In recent years, Andrea Boatto joined me, a talented and motivated young professional, who shares my same values and has helped make this pre-retirement period even more stimulating. In August 2025, I officially entered retirement, but the company's story didn't stop: my daughter Greta chose to take up the torch and guide the activity towards a new phase, transforming it into Balbi Giardini Sagl.",
+    "quote": "The spirit remains the same. Andrea will continue to take care of your gardens with professionalism and attention, while Giuseppe will remain present as the first contact.",
+    "team": {
+      "giuseppe": {
+        "name": "Giuseppe",
+        "role": "Founder"
+      },
+      "greta": {
+        "name": "Greta",
+        "role": "Manager"
+      },
+      "andrea": {
+        "name": "Andrea",
+        "role": "Professional gardener"
+      }
+    }
+  },
+  "services": {
+    "title": "Our services",
+    "lawnMaintenance": {
+      "title": "Lawn Maintenance",
+      "description": "Complete care of your lawn to keep it always green and lush"
+    },
+    "pruningCutting": {
+      "title": "Pruning and Cutting",
+      "description": "Professional pruning of trees and hedges for plant health and aesthetics"
+    },
+    "plantTreatments": {
+      "title": "Treatments for Plants and Hedges",
+      "description": "Specialized treatments for the protection and care of your plants"
+    },
+    "gardenPreparation": {
+      "title": "Garden Preparation and Care",
+      "description": "Soil preparation and garden care for abundant harvests"
+    },
+    "flowersPlants": {
+      "title": "Flowers and Plants",
+      "description": "Selection and planting of flowers and plants to beautify your spaces"
+    },
+    "transportWaste": {
+      "title": "Transport and Disposal",
+      "description": "Complete service for material transport and green waste disposal"
+    },
+    "onDemand": {
+      "gardenDesign": {
+        "title": "New garden design",
+        "description": "On request"
+      },
+      "customServices": {
+        "title": "Custom services",
+        "description": "On request"
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Projects that speak for themselves",
+    "viewAll": "View all projects"
+  },
+  "testimonials": {
+    "elena": {
+      "name": "Elena Bernasconi",
+      "location": "Lugano",
+      "text": "Giuseppe and Andrea transformed our garden into a little paradise. Their professionalism and passion show in every detail."
+    },
+    "marco": {
+      "name": "Marco Cereghetti",
+      "location": "Mendrisio",
+      "text": "I've been collaborating with Balbi Giardini for years. Always punctual, precise and with particular attention to plant needs."
+    },
+    "giuseppeMoretti": {
+      "name": "Giuseppe Moretti",
+      "location": "Bellinzona",
+      "text": "Excellent service from A to Z. My lawn has never been as beautiful as after their interventions."
+    }
+  },
+  "ctaFinal": {
+    "title": "Let's start your project together",
+    "subtitle": "Free consultation • Personalized quote • Guaranteed passion",
+    "ctaPrimary": "Call us now: +41 079 353 57 01",
+    "ctaSecondary": "Write us an email"
+  },
+  "footer": {
+    "slogan": "Where tradition meets green innovation",
+    "copyright": "© 2025 Balbi Giardini Sagl. All rights reserved."
+  },
+  "whatsapp": {
+    "message": "Contact us on WhatsApp"
+  },
+  "languageSwitcher": {
+    "label": "Select language"
+  }
+}

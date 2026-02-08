@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Dienstleistungen",
+    "projects": "Projekte",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "tagline": "Seit über 30 Jahren verwandeln wir Grünflächen im Tessin",
+    "subtitle": "Leidenschaft für die Natur, Erfahrung und Aufmerksamkeit für Details. Jetzt geleitet von Greta.",
+    "ctaPrimary": "Entdecken Sie unsere Dienstleistungen",
+    "ctaSecondary": "Rufen Sie uns an: +41 079 353 57 01"
+  },
+  "about": {
+    "title": "Wie Balbi Giardini entstanden ist",
+    "story": "Mein Name ist Giuseppe Balbi und meine Leidenschaft für das Grün kommt von weit her. Schon als Kind begleitete ich meinen Vater bei den landwirtschaftlichen Arbeiten auf den Familienterrains, wo wir Gemüsegärten, Weinreben, Olivenbäume und zahlreiche Obstbäume anbauten. Dort habe ich den Wert der Pflege, der Geduld und des Respekts für die Natur gelernt. Mit zwanzig Jahren entschied ich mich, diese Leidenschaft in einen Beruf zu verwandeln und startete meine selbständige Tätigkeit, die ich mit Hingabe über dreißig Jahre lang geführt habe. In den letzten Jahren kam Andrea Boatto zu mir dazu, ein talentierter und motivierter junger Fachmann, der meine Werte teilt und dazu beigetragen hat, diese Vorruhestandszeit noch anregender zu gestalten. Im August 2025 bin ich offiziell in den Ruhestand getreten, aber die Geschichte des Unternehmens ist nicht zu Ende: Meine Tochter Greta hat sich entschieden, das Zepter zu übernehmen und die Aktivität in eine neue Phase zu führen, indem sie sie in Balbi Giardini Sagl umwandelte.",
+    "quote": "Der Geist bleibt derselbe. Andrea wird sich weiterhin mit Professionalität und Aufmerksamkeit um Ihre Gärten kümmern, während Giuseppe als erster Ansprechpartner präsent bleiben wird.",
+    "team": {
+      "giuseppe": {
+        "name": "Giuseppe",
+        "role": "Gründer"
+      },
+      "greta": {
+        "name": "Greta",
+        "role": "Geschäftsführerin"
+      },
+      "andrea": {
+        "name": "Andrea",
+        "role": "Professioneller Gärtner"
+      }
+    }
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "lawnMaintenance": {
+      "title": "Rasenpflege",
+      "description": "Vollständige Pflege Ihres Rasens, damit er immer grün und üppig bleibt"
+    },
+    "pruningCutting": {
+      "title": "Beschneiden und Schneiden",
+      "description": "Professioneller Baumschnitt und Heckenschnitt für Gesundheit und Ästhetik der Pflanzen"
+    },
+    "plantTreatments": {
+      "title": "Behandlungen für Pflanzen und Hecken",
+      "description": "Spezialisierte Behandlungen zum Schutz und zur Pflege Ihrer Pflanzen"
+    },
+    "gardenPreparation": {
+      "title": "Vorbereitung und Pflege des Gemüsegartens",
+      "description": "Bodenvorbereitung und Gemüsegartenpflege für reiche Ernten"
+    },
+    "flowersPlants": {
+      "title": "Blumen und Pflanzen",
+      "description": "Auswahl und Bepflanzung von Blumen und Pflanzen zur Verschönerung Ihrer Räume"
+    },
+    "transportWaste": {
+      "title": "Transport und Entsorgung",
+      "description": "Kompletter Service für Materialtransport und Grünabfallentsorgung"
+    },
+    "onDemand": {
+      "gardenDesign": {
+        "title": "Planung neuer Gärten",
+        "description": "Auf Anfrage"
+      },
+      "customServices": {
+        "title": "Maßgeschneiderte Dienstleistungen",
+        "description": "Auf Anfrage"
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Projekte, die für sich sprechen",
+    "viewAll": "Alle Projekte ansehen"
+  },
+  "testimonials": {
+    "elena": {
+      "name": "Elena Bernasconi",
+      "location": "Lugano",
+      "text": "Giuseppe und Andrea haben unseren Garten in ein kleines Paradies verwandelt. Ihre Professionalität und Leidenschaft zeigen sich in jedem Detail."
+    },
+    "marco": {
+      "name": "Marco Cereghetti",
+      "location": "Mendrisio",
+      "text": "Ich arbeite seit Jahren mit Balbi Giardini zusammen. Immer pünktlich, präzise und mit besonderer Aufmerksamkeit für die Bedürfnisse der Pflanzen."
+    },
+    "giuseppeMoretti": {
+      "name": "Giuseppe Moretti",
+      "location": "Bellinzona",
+      "text": "Ein exzellenter Service von A bis Z. Mein Rasen war noch nie so schön wie nach ihren Eingriffen."
+    }
+  },
+  "ctaFinal": {
+    "title": "Beginnen wir gemeinsam Ihr Projekt",
+    "subtitle": "Kostenlose Beratung • Personalisiertes Angebot • Leidenschaft garantiert",
+    "ctaPrimary": "Rufen Sie uns jetzt an: +41 079 353 57 01",
+    "ctaSecondary": "Schreiben Sie uns eine E-Mail"
+  },
+  "footer": {
+    "slogan": "Wo Tradition auf grüne Innovation trifft",
+    "copyright": "© 2025 Balbi Giardini Sagl. Alle Rechte vorbehalten."
+  },
+  "whatsapp": {
+    "message": "Kontaktieren Sie uns auf WhatsApp"
+  },
+  "languageSwitcher": {
+    "label": "Sprache auswählen"
+  }
+}

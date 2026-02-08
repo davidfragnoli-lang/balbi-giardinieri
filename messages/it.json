@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Servizi",
+    "projects": "Progetti",
+    "about": "Chi siamo",
+    "contact": "Contatto"
+  },
+  "hero": {
+    "tagline": "Da oltre 30 anni, trasformiamo spazi verdi in Ticino",
+    "subtitle": "Passione per la natura, esperienza e attenzione ai dettagli. Ora guidati da Greta.",
+    "ctaPrimary": "Scopri i nostri servizi",
+    "ctaSecondary": "Chiamaci: +41 079 353 57 01"
+  },
+  "about": {
+    "title": "Come nasce Balbi Giardini",
+    "story": "Mi chiamo Giuseppe Balbi e la mia passione per il verde nasce da lontano. Fin da bambino affiancavo mio padre nei lavori agricoli sui terreni di famiglia, dove coltivavamo orti, viti, ulivi e numerosi alberi da frutto. È lì che ho imparato il valore della cura, della pazienza e del rispetto per la natura. A vent'anni ho deciso di trasformare quella passione in un mestiere, avviando la mia attività indipendente, che ho portato avanti con dedizione per oltre trent'anni. Negli ultimi anni si è unito a me Andrea Boatto, un giovane professionista talentuoso e motivato, che condivide i miei stessi valori e ha contribuito a rendere questo periodo pre-pensionistico ancora più stimolante. Nell'agosto 2025 sono entrato ufficialmente in pensione, ma la storia dell'azienda non si è fermata: mia figlia Greta ha scelto di raccogliere il testimone e guidare l'attività verso una nuova fase, trasformandola in Balbi Giardini Sagl.",
+    "quote": "Lo spirito rimane lo stesso. Andrea continuerà a prendersi cura dei vostri giardini con professionalità e attenzione, mentre Giuseppe resterà presente come primo contatto.",
+    "team": {
+      "giuseppe": {
+        "name": "Giuseppe",
+        "role": "Fondatore"
+      },
+      "greta": {
+        "name": "Greta",
+        "role": "Gerente"
+      },
+      "andrea": {
+        "name": "Andrea",
+        "role": "Giardiniere professionista"
+      }
+    }
+  },
+  "services": {
+    "title": "I nostri servizi",
+    "lawnMaintenance": {
+      "title": "Manutenzione Prato",
+      "description": "Cura completa del vostro prato per mantenerlo sempre verde e rigoglioso"
+    },
+    "pruningCutting": {
+      "title": "Potatura e Taglio",
+      "description": "Potatura professionale di alberi e siepi per la salute e l'estetica delle piante"
+    },
+    "plantTreatments": {
+      "title": "Trattamenti per Piante e Siepi",
+      "description": "Trattamenti specializzati per la protezione e la cura delle vostre piante"
+    },
+    "gardenPreparation": {
+      "title": "Preparazione e Cura dell'Orto",
+      "description": "Preparazione del terreno e cura dell'orto per raccolti abbondanti"
+    },
+    "flowersPlants": {
+      "title": "Fiori e Piante",
+      "description": "Selezione e piantumazione di fiori e piante per abbellire i vostri spazi"
+    },
+    "transportWaste": {
+      "title": "Trasporti e Smaltimento",
+      "description": "Servizio completo di trasporto materiali e smaltimento rifiuti verdi"
+    },
+    "onDemand": {
+      "gardenDesign": {
+        "title": "Progettazione nuovi giardini",
+        "description": "Su richiesta"
+      },
+      "customServices": {
+        "title": "Servizi su misura",
+        "description": "Su richiesta"
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Progetti che parlano da soli",
+    "viewAll": "Vedi tutti i progetti"
+  },
+  "testimonials": {
+    "elena": {
+      "name": "Elena Bernasconi",
+      "location": "Lugano",
+      "text": "Giuseppe e Andrea hanno trasformato il nostro giardino in un piccolo paradiso. La loro professionalità e passione si vedono in ogni dettaglio."
+    },
+    "marco": {
+      "name": "Marco Cereghetti",
+      "location": "Mendrisio",
+      "text": "Collaboro con Balbi Giardini da anni. Sempre puntuali, precisi e con un'attenzione particolare per le esigenze delle piante."
+    },
+    "giuseppeMoretti": {
+      "name": "Giuseppe Moretti",
+      "location": "Bellinzona",
+      "text": "Un servizio eccellente dalla A alla Z. Il mio prato non è mai stato così bello come dopo i loro interventi."
+    }
+  },
+  "ctaFinal": {
+    "title": "Iniziamo insieme il vostro progetto",
+    "subtitle": "Consulenza gratuita • Preventivo personalizzato • Passione garantita",
+    "ctaPrimary": "Chiamaci ora: +41 079 353 57 01",
+    "ctaSecondary": "Scrivici una mail"
+  },
+  "footer": {
+    "slogan": "Dove la tradizione incontra l'innovazione verde",
+    "copyright": "© 2025 Balbi Giardini Sagl. Tutti i diritti riservati."
+  },
+  "whatsapp": {
+    "message": "Contattaci su WhatsApp"
+  },
+  "languageSwitcher": {
+    "label": "Seleziona lingua"
+  }
+}
