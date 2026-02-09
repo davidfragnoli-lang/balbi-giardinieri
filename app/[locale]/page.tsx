@@ -2,6 +2,11 @@ import Navbar from '@/components/sections/Navbar';
 import Hero from '@/components/sections/Hero';
 import About from '@/components/sections/About';
 import Services from '@/components/sections/Services';
+import Portfolio from '@/components/sections/Portfolio';
+import Testimonials from '@/components/sections/Testimonials';
+import FinalCTA from '@/components/sections/FinalCTA';
+import Footer from '@/components/sections/Footer';
+import WhatsAppButton from '@/components/ui/WhatsAppButton';
 
 export default function Home() {
   return (
@@ -10,14 +15,11 @@ export default function Home() {
       <Hero />
       <About />
       <Services />
-      
-      {/* Placeholder sections for navigation */}
-      <div id="portfolio" className="h-96 bg-cream flex items-center justify-center">
-        <h2 className="font-heading text-2xl text-forest-green">Portfolio section - Coming next</h2>
-      </div>
-      <div id="contact" className="h-96 bg-white flex items-center justify-center">
-        <h2 className="font-heading text-2xl text-forest-green">Contact section - Coming next</h2>
-      </div>
+      <Portfolio />
+      <Testimonials />
+      <FinalCTA />
+      <Footer />
+      <WhatsAppButton />
     </div>
   );
 }
