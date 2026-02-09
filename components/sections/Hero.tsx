@@ -64,7 +64,7 @@ export default function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 }}
                 onClick={handleCallClick}
-                className="border-2 border-cream bg-cream/10 backdrop-blur text-forest-green px-8 py-4 rounded-lg font-body font-medium text-cta hover:bg-cream hover:text-forest-green transition-all duration-300 hover:shadow-card-hover transform hover:-translate-y-1"
+                className="border-2 border-[#C67A4B] bg-transparent backdrop-blur text-[#C67A4B] px-8 py-4 rounded-lg font-body font-medium text-cta hover:bg-[#C67A4B] hover:text-cream transition-all duration-300 hover:shadow-card-hover transform hover:-translate-y-1"
               >
                 {t('ctaSecondary')}
               </motion.button>
@@ -85,7 +85,7 @@ export default function Hero() {
           className="flex flex-col items-center space-y-2 text-forest-green hover:text-terracotta transition-colors group"
           aria-label="Scroll down"
         >
-          <span className="font-body text-sm font-medium opacity-80">Scopri di più</span>
+          <span className="font-body text-sm font-medium opacity-80">{t('scrollDown')}</span>
           <motion.div
             animate={{ y: [0, 8, 0] }}
             transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}

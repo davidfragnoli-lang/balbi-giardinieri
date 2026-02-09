@@ -10,7 +10,8 @@
     "tagline": "For over 30 years, we transform green spaces in Ticino",
     "subtitle": "Passion for nature, experience and attention to detail. Now led by Greta.",
     "ctaPrimary": "Discover our services",
-    "ctaSecondary": "Call us: +41 079 353 57 01"
+    "ctaSecondary": "Call us: +41 079 353 57 01",
+    "scrollDown": "Learn more"
   },
   "about": {
     "title": "How Balbi Giardini was born",
@@ -99,7 +100,8 @@
   },
   "footer": {
     "slogan": "Where tradition meets green innovation",
-    "copyright": "© 2026 Balbi Giardini Sagl. All rights reserved."
+    "copyright": "© 2026 Balbi Giardini Sagl. All rights reserved.",
+    "backToTop": "Back to top"
   },
   "whatsapp": {
     "message": "Contact us on WhatsApp"

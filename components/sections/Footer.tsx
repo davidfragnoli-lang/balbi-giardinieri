@@ -96,7 +96,7 @@ export default function Footer() {
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.95 }}
           className="fixed bottom-6 right-6 bg-terracotta text-cream p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 z-40"
-          aria-label="Torna in cima"
+          aria-label={t('footer.backToTop')}
         >
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7"/>

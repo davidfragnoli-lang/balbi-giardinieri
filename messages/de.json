@@ -10,7 +10,8 @@
     "tagline": "Seit über 30 Jahren verwandeln wir Grünflächen im Tessin",
     "subtitle": "Leidenschaft für die Natur, Erfahrung und Aufmerksamkeit für Details. Jetzt geleitet von Greta.",
     "ctaPrimary": "Entdecken Sie unsere Dienstleistungen",
-    "ctaSecondary": "Rufen Sie uns an: +41 079 353 57 01"
+    "ctaSecondary": "Rufen Sie uns an: +41 079 353 57 01",
+    "scrollDown": "Mehr erfahren"
   },
   "about": {
     "title": "Wie Balbi Giardini entstanden ist",
@@ -99,7 +100,8 @@
   },
   "footer": {
     "slogan": "Wo Tradition auf grüne Innovation trifft",
-    "copyright": "© 2026 Balbi Giardini Sagl. Alle Rechte vorbehalten."
+    "copyright": "© 2026 Balbi Giardini Sagl. Alle Rechte vorbehalten.",
+    "backToTop": "Nach oben"
   },
   "whatsapp": {
     "message": "Kontaktieren Sie uns auf WhatsApp"

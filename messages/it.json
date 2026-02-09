@@ -10,7 +10,8 @@
     "tagline": "Da oltre 30 anni, trasformiamo spazi verdi in Ticino",
     "subtitle": "Passione per la natura, esperienza e attenzione ai dettagli. Ora guidati da Greta.",
     "ctaPrimary": "Scopri i nostri servizi",
-    "ctaSecondary": "Chiamaci: +41 079 353 57 01"
+    "ctaSecondary": "Chiamaci: +41 079 353 57 01",
+    "scrollDown": "Scopri di più"
   },
   "about": {
     "title": "Come nasce Balbi Giardini",
@@ -99,7 +100,8 @@
   },
   "footer": {
     "slogan": "Dove la tradizione incontra l'innovazione verde",
-    "copyright": "© 2026 Balbi Giardini Sagl. Tutti i diritti riservati."
+    "copyright": "© 2026 Balbi Giardini Sagl. Tutti i diritti riservati.",
+    "backToTop": "Torna in cima"
   },
   "whatsapp": {
     "message": "Contattaci su WhatsApp"
