@@ -19,11 +19,11 @@ export default function Hero() {
 
   return (
     <section id="hero" className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Background - Placeholder gradient for now */}
-      <div className="absolute inset-0 bg-gradient-to-br from-leaf-green/20 via-cream to-forest-green/30" />
+      {/* Background - Rich nature gradient */}
+      <div className="absolute inset-0 bg-gradient-to-br from-[#2D5016] via-[#4A7C28] to-[#7CB342]" />
       
-      {/* Subtle overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-transparent" />
+      {/* Enhanced overlay for better text contrast */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/40 to-black/20" />
 
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
@@ -36,12 +36,12 @@ export default function Hero() {
             className="space-y-6"
           >
             {/* Tagline */}
-            <h1 className="font-heading text-h1-mobile md:text-h1-desktop text-forest-green font-bold leading-tight">
+            <h1 className="font-heading text-h1-mobile md:text-h1-desktop text-cream font-bold leading-tight">
               {t('tagline')}
             </h1>
 
             {/* Subtitle */}
-            <p className="font-body text-lg md:text-xl text-text-dark max-w-2xl leading-relaxed">
+            <p className="font-body text-lg md:text-xl text-cream/90 max-w-2xl leading-relaxed">
               {t('subtitle')}
             </p>
 
@@ -53,7 +53,7 @@ export default function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.3 }}
                 onClick={() => document.querySelector('#services')?.scrollIntoView({ behavior: 'smooth' })}
-                className="bg-terracotta text-cream px-8 py-4 rounded-lg font-body font-medium text-cta hover:bg-opacity-90 transition-all duration-300 hover:shadow-card-hover transform hover:-translate-y-1"
+                className="bg-terracotta text-cream px-8 py-3 md:py-4 rounded-lg font-body font-medium text-cta hover:bg-opacity-90 transition-all duration-300 hover:shadow-card-hover transform hover:-translate-y-1"
               >
                 {t('ctaPrimary')}
               </motion.button>
@@ -64,7 +64,7 @@ export default function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 }}
                 onClick={handleCallClick}
-                className="border-2 border-[#C67A4B] bg-transparent backdrop-blur text-[#C67A4B] px-8 py-4 rounded-lg font-body font-medium text-cta hover:bg-[#C67A4B] hover:text-cream transition-all duration-300 hover:shadow-card-hover transform hover:-translate-y-1"
+                className="border-2 border-cream bg-transparent backdrop-blur text-cream px-8 py-3 md:py-4 rounded-lg font-body font-medium text-cta hover:bg-cream hover:text-forest-green transition-all duration-300 hover:shadow-card-hover transform hover:-translate-y-1"
               >
                 {t('ctaSecondary')}
               </motion.button>
@@ -82,16 +82,29 @@ export default function Hero() {
       >
         <button
           onClick={handleScrollDown}
-          className="flex flex-col items-center space-y-2 text-forest-green hover:text-terracotta transition-colors group"
+          className="flex flex-col items-center space-y-2 text-cream hover:text-terracotta transition-colors group"
           aria-label="Scroll down"
         >
           <span className="font-body text-sm font-medium opacity-80">{t('scrollDown')}</span>
+          
+          {/* Desktop - Mouse icon */}
           <motion.div
             animate={{ y: [0, 8, 0] }}
             transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-            className="w-6 h-10 border-2 border-current rounded-full p-1"
+            className="hidden md:block w-6 h-10 border-2 border-current rounded-full p-1"
           >
             <div className="w-1 h-3 bg-current rounded-full mx-auto group-hover:bg-terracotta transition-colors" />
+          </motion.div>
+
+          {/* Mobile - Chevron down icon */}
+          <motion.div
+            animate={{ y: [0, 8, 0] }}
+            transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
+            className="md:hidden"
+          >
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+            </svg>
           </motion.div>
         </button>
       </motion.div>

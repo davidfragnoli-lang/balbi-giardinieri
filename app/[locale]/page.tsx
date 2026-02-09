@@ -7,6 +7,7 @@ import Testimonials from '@/components/sections/Testimonials';
 import FinalCTA from '@/components/sections/FinalCTA';
 import Footer from '@/components/sections/Footer';
 import WhatsAppButton from '@/components/ui/WhatsAppButton';
+import BackToTopButton from '@/components/ui/BackToTopButton';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <FinalCTA />
       <Footer />
       <WhatsAppButton />
+      <BackToTopButton />
     </div>
   );
 }
