@@ -1,7 +1,6 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import LanguageSwitcher from '@/components/ui/LanguageSwitcher';
 import { motion } from 'framer-motion';
 
 export default function Footer() {
@@ -75,19 +74,11 @@ export default function Footer() {
         </div>
 
         {/* Bottom Section */}
-        <div className="border-t border-cream/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="border-t border-cream/20 pt-8 flex flex-col md:flex-row justify-center items-center">
           {/* Copyright */}
-          <p className="font-body text-cream/60 text-sm text-center md:text-left">
+          <p className="font-body text-cream/60 text-sm text-center">
             {t('footer.copyright')}
           </p>
-
-          {/* Language Switcher */}
-          <div className="flex items-center gap-4">
-            <span className="font-body text-cream/60 text-sm">
-              {t('languageSwitcher.label')}:
-            </span>
-            <LanguageSwitcher />
-          </div>
         </div>
 
         {/* Back to Top Button moved to separate component */}

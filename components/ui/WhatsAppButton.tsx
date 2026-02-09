@@ -2,21 +2,41 @@
 
 import { useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function WhatsAppButton() {
   const t = useTranslations('whatsapp');
   const [isHovered, setIsHovered] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
 
   const whatsappNumber = '41793535701';
   const whatsappUrl = `https://wa.me/${whatsappNumber}`;
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const heroSection = document.querySelector('#hero') as HTMLElement;
+      if (heroSection) {
+        const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+        const scrolled = window.scrollY;
+        setIsVisible(scrolled > heroBottom);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    handleScroll(); // Check initial position
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <motion.div
-      className="fixed bottom-6 right-20 z-50"
+      className="fixed bottom-6 right-6 z-50"
       initial={{ scale: 0, opacity: 0 }}
-      animate={{ scale: 1, opacity: 1 }}
-      transition={{ delay: 1.5, duration: 0.5, type: 'spring', stiffness: 200 }}
+      animate={{ 
+        scale: isVisible ? 1 : 0, 
+        opacity: isVisible ? 1 : 0 
+      }}
+      transition={{ duration: 0.5, type: 'spring', stiffness: 200 }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >

@@ -10,9 +10,9 @@ export default function Navbar() {
 
   const navigationItems = [
     { key: 'home', href: '#hero' },
+    { key: 'about', href: '#about' },
     { key: 'services', href: '#services' },
     { key: 'projects', href: '#portfolio' },
-    { key: 'about', href: '#about' },
     { key: 'contact', href: '#contact' },
   ];
 
@@ -88,7 +88,7 @@ export default function Navbar() {
         <div className="fixed inset-0 z-[60] md:hidden">
           {/* Backdrop */}
           <div 
-            className="absolute inset-0 bg-black/40 backdrop-blur-sm"
+            className="fixed inset-0 z-50 bg-[#FAF8F5]"
             onClick={() => setIsMobileMenuOpen(false)}
           />
           
