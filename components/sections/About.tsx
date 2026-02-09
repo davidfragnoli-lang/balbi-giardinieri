@@ -8,7 +8,7 @@ import { useRef } from 'react';
 export default function About() {
   const t = useTranslations('about');
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: '-100px' });
+  const isInView = useInView(ref, { once: true, margin: '-20px' });
 
   const teamMembers = [
     {

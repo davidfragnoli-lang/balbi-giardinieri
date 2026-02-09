@@ -11,7 +11,7 @@ export default function FinalCTA() {
   const isInView = useInView(ref, { once: true, margin: '-50px' });
 
   return (
-    <section className="w-full bg-forest-green py-20">
+    <section id="contact" className="w-full bg-forest-green py-20">
       <motion.div
         ref={ref}
         initial={{ opacity: 0, y: 40 }}
