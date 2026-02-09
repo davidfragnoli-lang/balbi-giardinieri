@@ -16,6 +16,8 @@
     "title": "How Balbi Giardini was born",
     "story": "My name is Giuseppe Balbi and my passion for green comes from far away. Since childhood, I accompanied my father in agricultural work on family lands, where we cultivated vegetable gardens, vines, olive trees and numerous fruit trees. It was there that I learned the value of care, patience and respect for nature. At twenty years old, I decided to transform that passion into a profession, starting my independent activity, which I carried on with dedication for over thirty years. In recent years, Andrea Boatto joined me, a talented and motivated young professional, who shares my same values and has helped make this pre-retirement period even more stimulating. In August 2025, I officially entered retirement, but the company's story didn't stop: my daughter Greta chose to take up the torch and guide the activity towards a new phase, transforming it into Balbi Giardini Sagl.",
     "quote": "The spirit remains the same. Andrea will continue to take care of your gardens with professionalism and attention, while Giuseppe will remain present as the first contact.",
+    "photoPlaceholder": "Spectacular garden photo",
+    "teamTitle": "Our team",
     "team": {
       "giuseppe": {
         "name": "Giuseppe",
@@ -97,7 +99,7 @@
   },
   "footer": {
     "slogan": "Where tradition meets green innovation",
-    "copyright": "© 2025 Balbi Giardini Sagl. All rights reserved."
+    "copyright": "© 2026 Balbi Giardini Sagl. All rights reserved."
   },
   "whatsapp": {
     "message": "Contact us on WhatsApp"

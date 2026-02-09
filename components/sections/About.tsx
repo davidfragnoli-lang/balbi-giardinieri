@@ -90,7 +90,7 @@ export default function About() {
             >
               {/* Placeholder for garden photo */}
               <div className="absolute inset-0 flex items-center justify-center text-forest-green/50 font-body">
-                <span>Photo jardin spectaculaire</span>
+                <span>{t('photoPlaceholder')}</span>
               </div>
             </motion.div>
           </div>
@@ -106,7 +106,7 @@ export default function About() {
         >
           <div className="text-center mb-12">
             <h3 className="font-heading text-h3-mobile md:text-h3-desktop text-forest-green">
-              Il nostro team
+              {t('teamTitle')}
             </h3>
           </div>
 
